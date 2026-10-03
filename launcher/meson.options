@@ -1,0 +1,2 @@
+option('agentfence_bin', type : 'string', value : '',
+       description : 'Path of the Rust agentfence binary for the differential test (default: ../target/debug/agentfence)')

@@ -1,0 +1,2 @@
+least privilege is a habit
+sandbox the agent, not the developer

@@ -1,0 +1,23 @@
+[package]
+name = "agentfence"
+version = "0.1.0"
+edition = "2021"
+description = "Learn-mode least-privilege sandboxing for AI coding agents, enforced with Landlock"
+readme = "README.md"
+keywords = ["landlock", "sandbox", "ai-agents", "security", "least-privilege"]
+categories = ["command-line-utilities", "development-tools"]
+
+[dependencies]
+anyhow = "1"
+clap = { version = "4", features = ["derive"] }
+landlock = "0.4"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+toml = "0.8"
+
+[dev-dependencies]
+tempfile = "3"
+
+[profile.release]
+lto = true
+strip = true
