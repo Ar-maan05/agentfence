@@ -380,4 +380,4 @@ Read these before trusting it.
 
 ## License
 
-Not chosen yet.
+MIT. See [LICENSE](LICENSE).

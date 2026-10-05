@@ -2,6 +2,7 @@
 name = "agentfence"
 version = "0.1.0"
 edition = "2021"
+license = "MIT"
 description = "Learn-mode least-privilege sandboxing for AI coding agents, enforced with Landlock"
 readme = "README.md"
 keywords = ["landlock", "sandbox", "ai-agents", "security", "least-privilege"]
